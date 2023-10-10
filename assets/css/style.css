@@ -1,0 +1,54 @@
+.container2 img {
+  position: relative;
+  width: 40%;
+}
+
+.container {
+  height: 62.37px;
+  margin-bottom: 1em;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+}
+
+.minutesBar {
+  width: 80px;
+  border: 2px solid black;
+  position: absolute;
+  top: 29.3%;
+  left: 50%;
+  transform-origin: 0%;
+}
+
+.hoursBar {
+  width: 60px;
+  border: 3px solid black;
+  position: absolute;
+  top: 29.3%;
+  right: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+}
+
+.secondsBar {
+  width: 90px;
+  border: 2px solid red;
+  position: absolute;
+  top: 29.3%;
+  right: 50%;
+  transform-origin: 100%;
+}
+
+@keyframes seconds {
+  0% {
+    transform: rotate(-365deg);
+    transform-origin: 100%;
+  }
+
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 100%;
+  }
+}
