@@ -17,8 +17,8 @@
   width: 14%;
   border: 2px solid black;
   position: absolute;
-  top: 38.6%;
-  left: 50%;
+  top: 39.1%;
+  right: 36.2%;
   transform-origin: 0%;
 }
 
@@ -26,8 +26,8 @@
   width: 8%;
   border: 3px solid black;
   position: absolute;
-  top: 38.6%;
-  right: 50%;
+  top: 38.9%;
+  right: 50.2%;
   transform-origin: 100%;
   transform: rotate(90deg);
 }
@@ -36,8 +36,8 @@
   width: 17%;
   border: 1px solid red;
   position: absolute;
-  top: 38.6%;
-  right: 50%;
+  top: 39.1%;
+  right: 50.2%;
   transform-origin: 100%;
 }
 

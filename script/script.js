@@ -22,7 +22,7 @@ const movebars = function () {
   const seconds = date.getSeconds();
   let rotationAngleMInutes = minutes * 6.083 + 270;
   let rotationAngleHours = hours * 30.416 + 91.25;
-  let rotationAngleSeconds = seconds * 6.083 + 91.25;
+  let rotationAngleSeconds = seconds * 6.083 + 90.25;
 
   let hoursbar = document.querySelector(".hoursBar");
   let minutesbar = document.querySelector(".minutesBar");
